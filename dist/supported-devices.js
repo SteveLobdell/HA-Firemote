@@ -227,7 +227,20 @@ const devices = {
 
   },
 
+  "samsung": {
 
+    "meta": {
+      "friendlyName": "Samsung",
+      "supported": true,
+    },
+    "noCategory": {
+      "samsung-tizen": {
+        "supported": true,
+        "friendlyName": "Samsung Tizen TVs",
+        "defaultRemoteStyle" : "SS1",
+      }
+    }
+  },
   "chromecast": {
 
     "meta": {
